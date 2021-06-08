@@ -12,6 +12,8 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
+//JPQLの文はその中で完結。テーブル名が長く、複数テーブルをJOINさせた時などに略称にした方がラクで、よくある書き方。
+//tはtaskデーブルの略称で、この場のみで仕様。controllersのインスタンスのtとは関係がない。アルファベットが被っただけ。
 @NamedQueries({
     @NamedQuery(
         name = "getAllTasks",
