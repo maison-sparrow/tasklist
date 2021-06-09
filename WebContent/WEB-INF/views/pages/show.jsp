@@ -10,6 +10,6 @@
         <p>更新日時:<c:out value="${task.updated_at}" /></p>
 
         <p><a href="<c:url value='/index' />">一覧に戻る</a></p>
-        <p><a href="<c:url value='/edit?id=${task.id}' />">このメッセージを編集する</a></p>
+        <p><a href="<c:url value='/edit?id=${task.id}' />">このタスクを編集する</a></p>
     </c:param>
 </c:import>
